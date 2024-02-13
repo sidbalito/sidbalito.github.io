@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra Papel e Tesoura</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Pedra Papel e Tesoura</h1>
+    <div id="player1">
+        <h2>player 1</h2>
+        <button onclick="escolhaP1(this.innerText)">pedra</button>
+        <button onclick="escolhaP1(this.innerText)">papel</button>
+        <button onclick="escolhaP1(this.innerText)">tesoura</button>
+        <p id="escolha1"></p>
+    </div>
+    <div id="display">teste</div>
+    <div id="player2">
+        <h2>player 2</h2>
+        <button onclick="escolhaP2(this.innerText)">pedra</button>
+        <button onclick="escolhaP2(this.innerText)">papel</button>
+        <button onclick="escolhaP2(this.innerText)">tesoura</button>
+        <p id="escolha2"></p>
+    </div>
+    <button id="btDisplay" onclick="redefinir()">Redefinir</button>
+    <script src="index.js"></script>
+</body>
+</html>

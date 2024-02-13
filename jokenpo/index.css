@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#player1, #player2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    margin: auto;
+    width: 50%;
+    height: 115px;
+    border-radius: 10px;
+    padding: 10px 0;
+
+}
+
+#player1 button, #player2 button{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+}
+#player1{
+    background-color: rgb(1, 131, 1);
+}
+#player2{
+    background-color: rgb(226, 255, 64);
+}
+#display{
+    margin: auto;
+    background-color: gray;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+#btDisplay{
+    background: blue;
+    color: white;
+}
