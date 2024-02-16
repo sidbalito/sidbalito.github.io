@@ -9,18 +9,34 @@
 <body>
     <h1>Pedra Papel e Tesoura</h1>
     <div id="player1">
-        <h2>player 1</h2>
-        <button onclick="escolhaP1(this.innerText)">pedra</button>
-        <button onclick="escolhaP1(this.innerText)">papel</button>
-        <button onclick="escolhaP1(this.innerText)">tesoura</button>
+        <div class="jogador">
+        <img id='humano1' src="garoto.png" title="Humano"/>
+        <h2>Jogador 1</h2>
+        <img id="robô1" src="robo-mono.png" title="Robô (desativado)"/>          
+        </div>
+
+        <div id = 'botões1'>
+            <!--button onclick="escolhaP1(this.innerText)">pedra</button>
+            <button onclick="escolhaP1(this.innerText)">papel</button>
+            <button onclick="escolhaP1(this.innerText)">tesoura</button-->            
+        </div>
+
         <p id="escolha1"></p>
     </div>
     <div id="display">teste</div>
     <div id="player2">
-        <h2>player 2</h2>
-        <button onclick="escolhaP2(this.innerText)">pedra</button>
-        <button onclick="escolhaP2(this.innerText)">papel</button>
-        <button onclick="escolhaP2(this.innerText)">tesoura</button>
+        <div class="jogador">
+            <img id="humano2" src="garoto.png" title="Humano"/>
+            <h2>Jogador 2</h2>
+            <img id="robô2" src="robo-mono.png" title="Robô (desativado)"/>          
+            </div>
+
+        <div id='botões2'>
+            <!--button onclick="escolhaP2(this.innerText)">pedra</button>
+            <button onclick="escolhaP2(this.innerText)">papel</button>
+            <button onclick="escolhaP2(this.innerText)">tesoura</button-->            
+        </div>
+
         <p id="escolha2"></p>
     </div>
     <button id="btDisplay" onclick="redefinir()">Redefinir</button>
