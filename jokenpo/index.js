@@ -74,8 +74,8 @@ function redefinir(){
     funçãoModoRobô(humano2)
     funçãoModoRobô(robô1)
     funçãoModoRobô(robô2)
-    exibeModoRobô(humano1, robô1)
-    exibeModoRobô(humano2, robô2)
+    exibeModoRobô(humano1, robô1, modoRobô1)
+    exibeModoRobô(humano2, robô2, modoRobô2)
     document.getElementById('display').innerText = 'Façam suas escolhas'
     document.getElementById('escolha1').innerText = 'Aguardando...'
     document.getElementById('escolha2').innerText = ''
